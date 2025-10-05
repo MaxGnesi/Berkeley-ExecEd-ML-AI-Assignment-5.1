@@ -44,6 +44,12 @@ This project analyzes mobile coupon acceptance behavior using survey data from A
 3. **Comparative Analysis:** Group comparisons using statistical summaries and visualizations
 4. **Visualization:** Bar charts, histograms, multi-panel comparisons with color-coded insights
 
+## Future Analysis:
+1. Test statistical significance of differences
+2. Build predictive model for acceptance
+3. Analyze interaction effects between features
+4. Examine seasonal patterns if time data available
+
 ## Technologies
 
 - Python 3.11
