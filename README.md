@@ -30,12 +30,19 @@ This project analyzes mobile coupon acceptance behavior using survey data from A
 - Weaker frequency effect than bars (+23pp vs bars' +39pp)
 - **Key insight:** Convenience and social experience drive acceptance
 
+## Strategic Recommendations
+
+1. **Target existing customers** - Focus on drivers with proven visit patterns (highest ROI)
+2. **Optimize timing** - Coffee: mornings | Bars: evenings
+3. **Consider social context** - Coffee works best with social groups, bars acceptable solo
+4. **Don't waste resources** - Avoid trying to convert non-customers
+
 ## Methodology
 
 1. **Data Cleaning:** Removed duplicates, dropped 99% missing 'car' column, handled missing frequency data
 2. **Exploratory Analysis:** Distribution analysis, acceptance rates by feature
 3. **Comparative Analysis:** Group comparisons using statistical summaries and visualizations
-4. **Visualization:** Bar charts, histograms, multi-panel comparisons
+4. **Visualization:** Bar charts, histograms, multi-panel comparisons with color-coded insights
 
 ## Technologies
 
@@ -43,3 +50,11 @@ This project analyzes mobile coupon acceptance behavior using survey data from A
 - pandas, numpy - data manipulation
 - matplotlib, seaborn - visualization
 - Jupyter Notebook - analysis environment
+
+## Setup
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run analysis
+jupyter notebook prompt.ipynb
